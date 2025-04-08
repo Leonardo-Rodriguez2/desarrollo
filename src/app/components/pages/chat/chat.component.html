@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat de IA</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="typing-indicator" id="typingIndicator">IA está escribiendo...</div>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message ai-message">
+                <div class="message-content">
+                    ¡Hola! Soy un asistente de IA. ¿En qué puedo ayudarte hoy?
+                </div>
+                <div class="message-time">12:00 PM</div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Escribe tu mensaje..." autocomplete="off">
+            <button id="sendButton">Enviar</button>
+        </div>
+    </div>
+    <script src="script.ts"></script>
+</body>
+</html>
